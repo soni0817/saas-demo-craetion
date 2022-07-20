@@ -155,21 +155,17 @@ p {
 
 header {
   position: relative;
+  width: 100%;
   display: flex;
-  background-color: #FBF9F9;
   align-items: center;
-  padding: 0 2.8rem;
-  height: 4.1rem;
+  background-color: #FBF9F9;
+  padding: 0rem 2.8rem;
 }
 
 .header-logo {
-  flex: 0 0 20%;
-  display: flex;
-  align-items: center;
+  align-self: baseline;
 }
 .header-logo .logo {
-  max-width: 3rem;
-  height: 3rem;
   vertical-align: middle;
 }
 .header-logo .header-text {
@@ -188,23 +184,18 @@ header {
   width: 2.2rem;
   height: 4.1rem;
   background-color: #FFFFFF;
-  margin-right: 2.7rem;
+  margin: 0 2.7rem;
+  display: inline-block;
 }
 
 .navbar {
-  flex: 0 0 75%;
-  display: flex;
-  height: 4.1rem;
-  align-items: center;
-  justify-content: flex-end;
-  margin: 0px;
+  display: inline-block;
+  margin-left: auto;
+  align-self: baseline;
 }
 .navbar .navbar-menu {
   margin: 0px;
   padding: 0px;
-  display: flex;
-  align-items: center;
-  justify-content: end;
 }
 .navbar .navbar-menu li {
   display: inline-block;
@@ -225,6 +216,7 @@ header {
   width: 61px;
   height: 44px;
   display: inline-block;
+  vertical-align: middle;
 }
 .search a {
   position: absolute;

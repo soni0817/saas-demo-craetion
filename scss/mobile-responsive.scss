@@ -2,13 +2,44 @@
 @import "variables";
 @import "font";
 @import "mixins";
-
+@media (max-width: 1298px) {
+    .toggle-btn{
+        display: block;
+       }
+       .navbar{
+        display: none;
+        width: 100%;
+        ul{
+          li{
+            width: 100%;
+          }
+        }
+       }
+       .navbar .navbar-menu{
+        display: block;
+        display: inline-block;
+    padding-top: 25px;
+    padding-left: 14px;
+        // padding-left: 2.5rem;
+        background-color:$header-bg-color;
+       }
+       .navbar .navbar-menu li{
+        padding-bottom: 25px;
+       }
+       .navbar.show{
+        display: block;
+        position: relative;
+        z-index: 999;
+       }
+       header{
+        display: block;
+       }
+       .header-border{
+        display: none;
+       }
+}
 @media (max-width: 991px) {
-    h2 {
-        font-size: 1.5rem;
-        color: #FFFFFF;
-        line-height: 2rem;
-    }
+    
 
 
  /* topnav */
@@ -81,6 +112,9 @@
     li{
       padding: 10px 0;
     }
+   }
+   .header-logo .logo{
+    width: 50px;
    }
   
 //   about
@@ -167,5 +201,24 @@ flex-direction: column;
     padding-left: 0;
 
 }
+}
+@media (max-width: 320px) {
+    .vision-inner .vision-dot {
+        left: 42%;
+    }
+    .header-logo {
+        padding: 0 1rem;
+    }
+    .toggle-btn{
+        right: 20px;
+    }
+    .header-logo {
+        padding: 1rem 0 1rem 1rem;
+    }
+    h2 {
+        font-size: 1.5rem;
+        color: #FFFFFF;
+        line-height: 2rem;
+    }
 }
 
