@@ -5,7 +5,7 @@
   --gray: #85888C;
 }
 
-@media (max-width: 1298px) {
+@media (max-width: 1180px) {
   .toggle-btn {
     display: block;
   }
