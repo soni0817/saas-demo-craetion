@@ -1,0 +1,152 @@
+/* Responsiveness */
+:root {
+  --white: #f9f9f9;
+  --black: #36383F;
+  --gray: #85888C;
+}
+
+@media (max-width: 991px) {
+  h2 {
+    font-size: 1.5rem;
+    color: #FFFFFF;
+    line-height: 2rem;
+  }
+  /* topnav */
+  .top-nav {
+    flex-direction: column;
+    padding: 1rem 1.5rem;
+    justify-content: center;
+    height: 5.8rem;
+  }
+  .header-logo {
+    padding: 0 2rem;
+  }
+  .header-signup {
+    padding-top: 10px;
+  }
+  .top-nav li a {
+    font-size: 0.6rem;
+  }
+  .header-signup .btn {
+    padding: 8px 15px;
+    font-size: 0.8rem;
+  }
+  .header_lang {
+    font-size: 0.6rem;
+  }
+  .left_owl {
+    padding: 5rem 2rem 0 2rem;
+  }
+  .owl__slide {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  header {
+    padding: 0;
+    width: 100%;
+    display: inline-block;
+  }
+  .header-border {
+    display: none;
+  }
+  .toggle-btn {
+    display: block;
+  }
+  .navbar {
+    display: none;
+    width: 100%;
+  }
+  .navbar ul li {
+    width: 100%;
+  }
+  .navbar .navbar-menu {
+    display: block;
+    padding-left: 2.5rem;
+    background-color: #FBF9F9;
+  }
+  .navbar.show {
+    display: block;
+    position: relative;
+    z-index: 999;
+  }
+  .navbar-menu li {
+    padding: 10px 0;
+  }
+  .about {
+    width: 100%;
+  }
+  .about-main-listing {
+    flex-direction: column;
+  }
+  .about_left .about-img {
+    width: 100%;
+  }
+  .about_left .about-button .about_btn {
+    padding: 1rem 2rem;
+    font-size: 0.8rem;
+  }
+  .about_left .about-button {
+    top: 83%;
+  }
+  .about_right {
+    padding-top: 3rem;
+    margin-left: 0;
+  }
+  .about-head::after {
+    top: 0%;
+    right: 0%;
+  }
+  .about-details {
+    padding-right: 0;
+  }
+  .mission {
+    flex-direction: column;
+  }
+  .mission-inner .mission-dot {
+    max-width: 154px;
+    top: 6%;
+  }
+  .mission-content {
+    padding: 3rem 0;
+  }
+  .vision {
+    flex-direction: column;
+  }
+  .vision-inner .vision-dot {
+    left: 53%;
+  }
+  .vision-inner .vision-circle {
+    right: 14%;
+  }
+  .card-section {
+    padding: 2.8rem 0 3.8rem 0;
+  }
+  .section-head-heading {
+    padding: 0 2rem;
+  }
+  .progress {
+    flex-direction: column;
+  }
+  .info .info-content {
+    flex-direction: column;
+  }
+  .info .info-content ul {
+    padding-top: 3rem;
+    padding: 3rem 2.8rem 0 2.8rem;
+  }
+  .card {
+    margin: 2rem 1rem 2rem 1.2rem;
+  }
+  .footer .footer-top {
+    flex-direction: column;
+    padding-left: 2rem;
+    padding-bottom: 2.8rem;
+  }
+  .footer__nav {
+    flex-direction: column;
+  }
+  .footer .footer-info {
+    padding-left: 0;
+  }
+}/*# sourceMappingURL=mobile-responsive.css.map */

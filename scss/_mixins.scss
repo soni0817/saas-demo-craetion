@@ -1,0 +1,22 @@
+@mixin button($color) {
+    padding: 0.7rem 1.75rem 0.5rem 1.68rem;
+    border-radius:0.94rem;
+    border: none;
+    font-size: 0.7rem;
+    line-height: 0.94rem;  
+    background-color: $color;
+    display: inline-block;
+}
+
+@mixin border ($border-color){
+   border: 1px solid $border-color; 
+}
+@mixin card($cardcolor) {
+    background-color:$cardcolor;
+    border-radius: 38px;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
